@@ -5,7 +5,7 @@ function Footer(){
     return(
        <div className="bg-dark text-white p-4">
          <Container >
-            Copywrite & Copy : {new Date().getFullYear()} | All Right Reserved by RIEAD
+            Copyright & Copy : {new Date().getFullYear()} | All Right Reserved by RIEAD
         </Container>
        </div>
     );

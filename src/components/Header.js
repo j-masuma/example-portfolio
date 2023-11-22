@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Button from 'react-bootstrap/Button';
 import Logo from '../assets/images/logo.png'
 import { Link } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 function Header(){
     return(
         
@@ -21,7 +22,7 @@ function Header(){
                     </Nav>
                 </div>
                 <div >
-                    <Button className='pr-2' type="submit">Create</Button>
+                    <Button className='mr-3' type="submit">Create</Button>{'  '}
                     <Button type="submit">Sign In</Button>
                 </div>
 

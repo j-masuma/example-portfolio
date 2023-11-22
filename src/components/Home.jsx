@@ -6,8 +6,8 @@ import Footer from "./Footer";
 
 function Home() {
   return (
-    <div className="bg-dark text-white">
-      <Header />
+    <div>
+      <Header className="bg-dark text-white" />
       <HeroSection />
       <Contact />
       <Footer />

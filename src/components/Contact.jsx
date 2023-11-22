@@ -136,12 +136,13 @@ function Contact() {
 
   function submitInfo() {
     console.log(userInfo);
+    alert(`Data of ${userInfo.username} has been submitted`);
   }
 
   return (
     <div style={{ backgroundColor: "#e5e5e5" }}>
       <div className={"container p-4"}>
-        <Form.Group className="mb-3" controlId="formBasicEmail">
+        <Form.Group className="mb-3" controlId="formBasicName">
           <Form.Label>Enter your name</Form.Label>
           <Form.Control
             value={userInfo.username}
